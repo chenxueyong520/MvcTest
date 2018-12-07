@@ -3,7 +3,7 @@ version: '3'
 services:
   mvctest:
     image: mvctest
-    container_name: 
+    container_name: mvctest
     build:
       context: ./MvcTest
       dockerfile: Dockerfile
